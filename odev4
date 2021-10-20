@@ -2,7 +2,7 @@ select distinct replacement_cost from film;
 
 select distinct count(replacement_cost) from film;
 
-select count(replacement_cost) from title where title like ' T%' and rating = 'G';
+select count(title) from title where title like ' T%' and rating = 'G';
 
 select count(country) from country where country like '_____';
 
